@@ -1,1 +1,6 @@
-script.sh /n#!/bin/bash /npath=’readlink -f “${BASH_SOURCE:-$0}”’
+script.sh 
+#!/bin/bash
+
+path=’readlink -f “${BASH_SOURCE:-$0}”’
+
+echo $path 
